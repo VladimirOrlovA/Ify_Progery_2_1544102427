@@ -282,10 +282,12 @@ start:
 
 	printf("\n\nDo You want to continue? set 0 or 1 =>  ");
 	scanf_s("%d", &flag);
-	printf("\nGoodbue\n\n");
+	
 
 	if (flag == 1)
 		goto start;
+
+		printf("\nGoodbue\n\n");
 
 	system("pause");
 }
