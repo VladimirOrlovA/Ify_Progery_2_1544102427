@@ -2,7 +2,7 @@
 #include<iostream>
 #include<cmath>
 #include<locale.h>
-#include<time.h>
+
 
 void PYTHON() { printf("\n Начинайте изучать язык программирования - PYTHON \n\n"); }
 void JAVA() { printf("\n Начинайте изучать язык программирования - JAVA \n\n"); }
@@ -258,8 +258,7 @@ void main()
 	int flag;
 
 	setlocale(LC_ALL, "");
-	srand(time(NULL));
-
+	
 start:
 
 	printf("\nЗачем Вы хотите изучить программирование:\n (1)Заработать\n (2)Саморазвитие\n (3)Интересно\n (4)Поразвлечься\n (5)Для детей\n (6)Я не знаю выберите за меня\n");
